@@ -5,7 +5,7 @@ const defaultImg = require('../no-photo.png');
 const initialState = [
   {
     src: defaultImg,
-    tooltip: '',
+    tooltip: 'New tooltip',
     editable: false,
     id: 0,
   },
@@ -38,18 +38,6 @@ const initialState = [
     tooltip: '',
     editable: false,
     id: 5,
-  },
-  {
-    src: defaultImg,
-    tooltip: '',
-    editable: false,
-    id: 6,
-  },
-  {
-    src: defaultImg,
-    tooltip: '',
-    editable: false,
-    id: 7,
   }
 ]
 
